@@ -1,0 +1,28 @@
+Title: Selection of Framework and Technology
+
+Status: Accepted
+
+Context:
+We are developing a simple e-commerce application to sell products online. The project requires selecting a suitable framework and technology stack to build the application. We have considered various options and evaluated them based on criteria such as ease of development, community support, scalability, and integration capabilities.
+
+Decision:
+After careful consideration and discussions, we have decided to use the following framework and technology stack for the e-commerce project:
+
+Framework: ASP.NET Core
+We have chosen ASP.NET Core as the framework for its cross-platform support, robustness, and extensive ecosystem. It provides a solid foundation for building web applications and has good integration capabilities with other technologies and libraries.
+
+Front-end Technology: React.js
+React.js will be used as the front-end technology for its component-based architecture, reusability, and vibrant community support. It offers a rich set of libraries and tools for creating interactive user interfaces.
+
+Database Engine: PostgreSQL
+We have selected PostgreSQL as the database engine due to its reliability, performance, and advanced features. PostgreSQL offers excellent support for complex queries, scalability, and ACID compliance, making it suitable for an e-commerce application.
+
+Authorization Method: JSON Web Tokens (JWT)
+We will implement authentication and authorization using JSON Web Tokens (JWT). JWT provides a secure and stateless authentication mechanism, enabling easy integration with various platforms and services. It offers flexibility in defining access control policies and allows for seamless communication between different components of the application.
+
+Rationale:
+ASP.NET Core is chosen for its versatility, allowing us to develop a cross-platform application. React.js provides a modern and efficient front-end development experience, enhancing the user interface and overall user experience. PostgreSQL is a reliable and feature-rich database engine that aligns with our requirements for scalability and complex data queries. Using JWT for authorization simplifies the authentication process and enables interoperability with other systems.
+
+Consequences:
+By selecting ASP.NET Core, React.js, PostgreSQL, and JWT for our e-commerce project, we can benefit from a robust and scalable application architecture. This choice may require additional learning and training for team members who are unfamiliar with these technologies. However, the selected technologies have a large and active community, providing ample resources and support for development and troubleshooting.
+
